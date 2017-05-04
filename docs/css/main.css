@@ -1,0 +1,86 @@
+#container {  
+width: 800px;  
+margin: auto;
+border: 1px solid black; 
+} 
+html, body {  
+margin: 0;  
+padding: 0; 
+}
+#nav, #header { 
+float: left; 
+display: inline-block;
+vertical-align: top;
+height: 50px;
+width: 50%;
+} 
+#nav {
+background:#00AAAA;}
+#nav ul {
+margin: 0 auto;
+padding: 2px 0 0 0;
+border-top: 1px #AFAFAF;
+border-bottom: 1px #AFAFAF; 
+text-align: center; 
+width: 100%;
+}
+ul li {  
+list-style-type:none;  
+margin:0;  
+padding:3px 0;  
+display:inline; }
+#nav ul li a {  
+padding: 0 20px;  
+line-height: 25px;  
+color:#000000;  
+text-transform:uppercase;  
+font-weight:bold;  
+text-decoration: none; } 
+#nav ul li a:hover, #nav ul li a.active {  
+color: #333; 
+}
+#header {
+background:#00AAAA;
+clear: left;
+padding:0 5%;  
+line-height:50px;  
+color:#000000;  
+text-transform:uppercase;  
+font-weight:bold;  
+text-decoration: none;
+width: 40%;
+}
+#header a {
+color:#000000;
+text-decoration: none;
+}
+#header a:hover, a.active{ 
+color: #333;   
+text-decoration: none;   
+}
+#content {
+padding: 10px 10px;
+background:#FFFFFF;
+float: left;
+width: 480px;
+height: 100%;
+}
+#bio {
+background:#FFFFFF;
+padding: 10px 10px;
+float: left;
+width: 480px;
+text-decoration: none;
+}
+#sidebar {  
+background: #FFFFFF;
+clear: left;
+float: left; 
+width: 300px; } 
+#footer {
+clear: left; 
+background:#FA911D;
+padding:15px 25px;  line-height:25px;  color:#000000;  text-transform:uppercase;  font-weight:bold;  text-decoration: none;
+height: 55px;  clear: both; 
+}
+div {} 
